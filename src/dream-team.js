@@ -15,7 +15,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 function createDreamTeam(members) {
   let teamName = [];
-  array.forEach((element)=>{
+  members.forEach((element)=>{
     if (typeof element == "string"){
       teamName.push(element[0])
     }
