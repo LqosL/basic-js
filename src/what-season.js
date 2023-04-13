@@ -25,7 +25,7 @@ function getSeason(date) {
   if (typeof date != "object" || Object.prototype.toString.call(date) !== '[object Date]'){
     throw new Error("Invalid date!")
   }
-  
+
   switch (date.getMonth()) {
     case 11:
     case 0:
