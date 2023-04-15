@@ -104,7 +104,7 @@ class VigenereCipheringMachine {
         }
       }
     }
-    
+
     if (this.isDirect){
       return result.join("")
     }else{
