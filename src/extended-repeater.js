@@ -39,11 +39,8 @@ function repeater(str, options) {
     addition = String(addition)
   }
 
-
-
   for (let i = 0; i < additionRepeatTimes; i++) {
     additioner.push(addition.toString())
-
   }
   if (str === null){
     str="null"
@@ -52,7 +49,6 @@ function repeater(str, options) {
     str = String(str)
   }
   let basicStr = str.toString() + additioner.join(additionSeparator)
-
   let mainer = [];
   for (let i = 0; i < repeatTimes ; i++) {
     mainer.push(basicStr)
